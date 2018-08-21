@@ -1,9 +1,12 @@
 
 def find_pressure(moles,temperature,volume,r=0.082057):
-    s = moles*r*temperature
-    p = s / volume
-    
-    return p 
+    try:
+        s = moles*R*temperature
+        p = s / volume
+        
+        return p 
+    except:
+        return("Volume must be greater than 0.")
 
 test_n = 10
 test_T = 298
