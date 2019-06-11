@@ -9,5 +9,9 @@ def get_integer(my_var):
 
 print(get_integer("5"))
 print(get_integer("Boggle."))
-print(get_integer(5.1))
+print(get_integer(5.1)).    
+#
+
+
+
 
